@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+  font-size: 2.6rem;
+}
+li,
+button,
+label,
+input,
+p {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 4.8rem;
+}
+h3 {
+  font-size: 3rem;
+  padding: 2rem;
+  font-weight: normal;
+}
+h4,
+h5 {
+  font-size: 2.8rem;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+button {
+  padding: 2rem 6rem;
+  background-color: rgb(86, 132, 153);
+  border: none;
+  color: white;
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+.main-head {
+  background-color: #131c27;
+  color: white;
+}
+nav {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  padding: 2rem;
+  min-height: 10vh;
+  align-items: center;
+  flex-wrap: wrap;
+}
+nav ul {
+  display: flex;
+  flex: 1 1 40rem;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+#Logo {
+  flex: 2 1 40rem;
+  font: bold;
+}
+.hero {
+  background: linear-gradient(rgb(14, 14, 14), transparent),
+    url(img/pexels-tomáš-malík-3408354.jpg);
+  min-height: 90vh;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.hero h3 {
+  padding: 5rem;
+}
+#locations {
+  min-height: 100vh;
+  background-image: linear-gradient(rgb(0, 0, 0, 0.5), transparent),
+    url(img/cityy.png);
+  /* background-size: ; */
+
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  -webkit-background-origin: inherit;
+
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+.locations-head {
+  width: 85%;
+  margin: auto;
+}
+.locations-head h2 {
+  text-decoration: underline;
+}
+.locations-head h3 {
+  padding: 2rem 2rem;
+  font-weight: 500;
+  /* background: linear-gradient(black, rgb(31, 30, 30));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+}
+
+.benefits-head {
+  background: rgb(48, 47, 47);
+  padding: 3rem;
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+.benefits-head h3 {
+  padding: 1rem;
+}
+.card {
+  flex: 1 1 25rem;
+  min-height: 40vh;
+  margin: 2rem 5rem;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1), 0px 10px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.cards {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  min-height: 70vh;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.cards img {
+  max-width: 15%;
+  margin: 2rem;
+}
+.card-icon {
+  background: rgb(86, 132, 153);
+}
+.card h4,
+.card p {
+  padding: 1rem;
+}
+#contact {
+  min-height: 100vh;
+  background: linear-gradient(rgb(0, 0, 0, 0.5), transparent),
+    url(img/contact-mountain.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form-wrapper {
+  background: rgba(19, 28, 39, 0.8);
+  width: 60%;
+  color: white;
+  border-radius: 20px;
+}
+.form-head {
+  text-align: center;
+  padding: 4rem;
+}
+.name-form,
+.email-form {
+  padding: 3rem;
+  text-align: center;
+}
+.form-wrapper label {
+  padding: 2rem;
+}
+.form-wrapper button {
+  width: 100%;
+  padding: 2rem;
+  margin-top: 8rem;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+footer {
+  background: #131c27;
+  color: white;
+}
+.footer-wrapper {
+  min-height: 10vh;
+  padding: 2rem;
+  display: flex;
+  width: 90%;
+  margin: auto;
+  align-items: center;
+  flex-wrap: wrap;
+}
+footer h5 {
+  flex: 1 1 40rem;
+}
+footer ul {
+  display: flex;
+  list-style: none;
+  flex: 1 1 40rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-icons {
+  font-size: 3rem;
+}
+
+@media screen and (max-width: 932px) {
+  html {
+    font-size: 35%;
+  }
+  nav {
+    justify-content: center;
+  }
+  #Logo {
+    padding: 1rem;
+    text-align: center;
+  }
+  footer {
+    text-align: center;
+  }
+  footer h5 {
+    justify-content: center;
+  }
+}

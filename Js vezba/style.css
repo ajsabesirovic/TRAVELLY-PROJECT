@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  font-size: 2.5rem;
+  padding: 0.8rem;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #141518;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.first {
+  display: flex;
+  flex-direction: row;
+  padding: 0.8rem;
+}
+button {
+  background-color: #c35cff;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 3px;
+  height: 35px;
+  width: 35px;
+}
+#email {
+  width: 80%;
+  margin-right: 5px;
+  border: 1px solid #6b6b6b;
+  border-radius: 3px;
+  font-size: 1rem;
+  padding: 4px;
+}
+ul {
+  list-style-type: none;
+  margin-top: 10px;
+}
+.list-item {
+  background-color: aliceblue;
+  padding: 4px;
+}
